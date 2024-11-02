@@ -2,7 +2,7 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from restaurant.views import BookingViewSet
-
+# from restaurant.views import MenuItemView, SingleMenuItemView
 router = DefaultRouter()
 router.register(r'tables', BookingViewSet)
 
